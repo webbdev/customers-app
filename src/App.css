@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-container h1 {
+  margin: 20px auto 30px;
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+
+th { 
+  background: rgba(55, 55, 55, 1);
+  color: white; 
+  font-weight: bold; 
+}
+
+td, th { 
+  padding: 6px 8px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+.sort-icon {
+  float: right;
+}
+
+.addbtn {
+  margin: 40px auto 30px;
+  padding: 10px 20px;
+  background-color: rgba(55, 55, 55, 1);
+  border: 1px solid rgba(55, 55, 55, 1);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.plus-icon {
+  color: #fff;
+  margin-right: 7px;
+}
+
+.addbtn:hover {
+  background-color: rgba(55, 55, 55, .9);
+  border: 1px solid rgba(55, 55, 55, .9);
+}
+
+.styles_modal__gNwvD {
+  width: 60%;
+}
+
+/* The Modal Box */
+.modal-box {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1000;
+  padding: 1.2rem;
+}
+
+.modal-content {
+  position: relative;
+  background: #fff;
+  background-clip: padding-box;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  padding: 1.2rem;
+  width: 800px;
+}
+
+/* The Close Button */
+.close {
+  color: rgba(0,0,0, 1);
+  float: right;
+  font-size: 32px;
+  line-height: .65;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgba(0,0,0, .7);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-box h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modal-box-body {
+  padding: 10px 30px;
+  text-align: left;
+}
+
+.modal-box-body form p {
+  font-size: 14px;
+  margin: 7px 0 5px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=number] {
+  width: 100%;
+  padding: 9px 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgba(0, 128, 255, 1);
+  color: white;
+  padding: 12px;
+  margin: 20px 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(0, 115, 230, 1);
+}
+
+
+@media only screen and (max-width: 800px)  {
+  .modal-content {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px)  {
+  .main-container h1 {
+    margin: 20px auto;
+  }
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ccc;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ccc;
+    display: block;
+    font-size: 11px;
+    text-align: right;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  .modal-box-body {
+    padding: 10px 5px;
+  }
+
+  .addbtn {
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 480px)  {
+  .modal-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-box-body {
+    padding: 10px 0 5px;
+  }
+
+  input[type=text] {
+    padding: 8px 10px;
+    margin: 5px 0;
+  }
+
+  input[type=submit] {
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 350px)  {
+  .modal-box {
+    padding: 0;
+  }
+
+  .modal-content {
+    padding: .5rem 1rem;
+  }
+
+  input[type=submit] {
+    margin: 15px 0 5px;
+  }
+}
+  
