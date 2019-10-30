@@ -1,4 +1,4 @@
-##  cuustomers-app
+##  customers-app
 React.js project
 
 ### How to run
