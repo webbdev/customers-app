@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get(``)
+    axios.get(`http://www.mocky.io/v2/5e0fa44134000093002d8145`)
       .then(res => {
         const customers = res.data;
         this.setState({ customers });
