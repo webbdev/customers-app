@@ -1,50 +1,47 @@
-{
-  "customers": [
-    {
-      "id": "c1",
-      "first_name": "John",
-      "last_name": "Johnson",
-      "email": "john@mail.com",
-      "phone_number": "07577125753",
-      "age": "26",
-      "city": "London"
-    },
-    {
-      "id": "c2",
-      "first_name": "Kate",
-      "last_name": "Adler",
-      "email": "kate@mail.com",
-      "phone_number": "07567123467",
-      "age": "28",
-      "city": "Liverpool"
-    },
-    {
-      "id": "c3",
-      "first_name": "Tom",
-      "last_name": "Thompson",
-      "email": "tom@mail.com",
-      "phone_number": "07877125255",
-      "age": "35",
-      "city": "Oxford"
-    },
-    {
-      "id": "c4",
-      "first_name": "Mark",
-      "last_name": "Morris",
-      "email": "mark@mail.com",
-      "phone_number": "07567124759",
-      "age": "29",
-      "city": "Bristol"
-    },
-    {
-      "id": "c5",
-      "first_name": "Adam",
-      "last_name": "Smith",
-      "email": "adam@mail.com",
-      "phone_number": "07677115888",
-      "age": "32",
-      "city": "Cambridge"
-    }
-
-    ]
-}
+[
+  {
+    "id": "c1",
+    "first_name": "John",
+    "last_name": "Johnson",
+    "email": "john@mail.com",
+    "phone_number": "07577125753",
+    "age": "26",
+    "city": "London"
+  },
+  {
+    "id": "c2",
+    "first_name": "Kate",
+    "last_name": "Adler",
+    "email": "kate@mail.com",
+    "phone_number": "07567123467",
+    "age": "28",
+    "city": "Liverpool"
+  },
+  {
+    "id": "c3",
+    "first_name": "Tom",
+    "last_name": "Thompson",
+    "email": "tom@mail.com",
+    "phone_number": "07877125255",
+    "age": "35",
+    "city": "Oxford"
+  },
+  {
+    "id": "c4",
+    "first_name": "Mark",
+    "last_name": "Morris",
+    "email": "mark@mail.com",
+    "phone_number": "07567124759",
+    "age": "29",
+    "city": "Bristol"
+  },
+  {
+    "id": "c5",
+    "first_name": "Adam",
+    "last_name": "Smith",
+    "email": "adam@mail.com",
+    "phone_number": "07677115888",
+    "age": "32",
+    "city": "Cambridge"
+  }
+]
