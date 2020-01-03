@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get(`http://www.mocky.io/v2/5e0fa44134000093002d8145`)
+    axios.get(`https://raw.githubusercontent.com/webbdev/customers-app/master/server/db.json`)
       .then(res => {
         const customers = res.data;
         this.setState({ customers });
