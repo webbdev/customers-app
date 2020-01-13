@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Customers from './components/Customers'
-import './App.css';
+import AddNewCustomer from './components/AddNewCustomer'
+import './App.css'
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get(`http://www.mocky.io/v2/5e0fa44134000093002d8145`)
+    axios.get(`https://raw.githubusercontent.com/webbdev/customers-app/master/server/db.json`)
       .then(res => {
         const customers = res.data;
         this.setState({ customers });
@@ -52,6 +53,12 @@ class App extends Component {
     this.setState({customers: arrayCopy});
   }
 
+  onSubmit = (submission) => {
+    this.setState({
+      customers: [...this.state.customers, submission]
+    })
+  }
+
   render() {
     const customers = this.state.customers;
     return (
@@ -60,6 +67,10 @@ class App extends Component {
           customers={customers}
           sortByName={this.sortByName}
           sortByCity={this.sortByCity}
+        />
+
+        <AddNewCustomer 
+          onSubmit={this.onSubmit}
         />
       </div>
     )
