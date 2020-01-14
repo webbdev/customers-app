@@ -70,6 +70,7 @@ class App extends Component {
         />
 
         <AddNewCustomer 
+
           onSubmit={this.onSubmit}
         />
       </div>
