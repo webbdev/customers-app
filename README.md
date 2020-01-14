@@ -1,6 +1,8 @@
 ##  customers-app
 React.js project
 
+https://customers-list.netlify.com/
+
 ### How to run
 
 1. git clone https://github.com/webbdev/customers-app.git
