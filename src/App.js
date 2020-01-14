@@ -69,8 +69,7 @@ class App extends Component {
           sortByCity={this.sortByCity}
         />
 
-        <AddNewCustomer 
-
+        <AddNewCustomer
           onSubmit={this.onSubmit}
         />
       </div>
