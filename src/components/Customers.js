@@ -40,19 +40,8 @@ class Customers extends Component {
 								<td data-label="City">{customer.city}</td>
 							</tr>
 						))}
-						{/*{newCustomers.map((newCustomer, index) => (
-							<tr key={index}>
-								<td data-label="First Name">{newCustomer.first_name}</td>
-								<td data-label="Last Name">{newCustomer.last_name}</td>
-								<td data-label="Email">{newCustomer.email}</td>
-								<td data-label="Phone number">{newCustomer.phone_number}</td>
-								<td data-label="Age">{newCustomer.age}</td>
-								<td data-label="City">{newCustomer.city}</td>
-							</tr>
-						))}*/}
 					</tbody>
 				</table>
-
 		    </div>
 		)
 	}
