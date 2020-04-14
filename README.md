@@ -1,7 +1,7 @@
 ##  customers-app
 React.js project
 
-https://customers-list.netlify.com/
+https://customers-list.netlify.app/
 
 ### How to run
 
